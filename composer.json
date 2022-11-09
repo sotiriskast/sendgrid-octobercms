@@ -1,0 +1,22 @@
+{
+    "name": "ideaseven/sendgrid-plugin",
+    "description": "Driver that adds support for the SendGrid mailer to octoberCMS",
+    "type": "october-plugin",
+    "keywords": ["sendgrid", "octobercms", "mail", "driver"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sotiris Kastanas",
+            "email": "sotiris@ideaseven.com"
+        },
+        {
+            "name": "Ideaseven Developer",
+            "homepage": "https://ideaseven.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "symfony/http-client": "^6.0",
+        "symfony/sendgrid-mailer": "^6.0.0"
+    }
+}
